@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Andrea</title>
+</head>
+<body>
+    <style>
+        body{
+            background: linear-gradient(to right, rgb(54, 84, 54), rgb(80, 2, 2), black)
+        }
+        header{
+            background: linear-gradient(to left, black, pink, yellow);
+            font-size: 30px;
+            height: 40px;
+            text-align: center;
+        }
+        .menu{
+            background: linear-gradient(to left, rgb(136, 88, 136), rgb(12, 12, 91), rgb(157, 5, 30) );
+            font-size: 40px;
+            text-align: center;
+        }
+        .menu li{
+            display: inline-block;
+            margin-left: 60px;
+        }
+        .menu li a{
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+        }
+        .menu li a:hover{
+            transition: all 3s;
+            color: rgb(108, 99, 14);
+        }
+        .historia{
+            float:right;
+            background-color: lightgray;
+            height: 100px;
+            width: 1250px;
+            margin-right: 40px;
+            margin-top:20px;
+            margin-bottom: 10px;
+        }
+        .historia h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 60px;
+            text-align: center;
+        }
+        .imagen{
+            height: 200px;
+            width: 100px;
+            float: left;
+        }
+        .derecha{
+            background-color: lightgray;
+            width: 1200px;
+            height: 600px;
+            float: right;
+            margin-right: 70px;
+            margin-bottom: 20px;
+        }
+        p{
+            text-align: justify;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    </style>
+    <header>
+        Sus mejores Vocalistas 
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Juanma.html">Juanma</a></li>
+            <li><a href="Jose Andrea.html">Jose Andrea</a></li>
+            <li><a href="Zeta.html">Zeta</a></li>
+        </ul>
+    </nav>
+    <article class="imagen ">
+        <img src="data:image/jpeg;base64,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" alt="">
+    </article>
+    <div class="historia">
+        <h1>
+            JOSE ANDREA 
+        </h1>
+    </div>
+    <section class="derecha ">
+        <p>
+            José Mario Martínez Arroyo Gonzalez ( La Paz, Bolivia; 2 de junio de 1971),más conocido como José Andrëa 
+            (añadiendo el nombre «Andrea» por su primera hija)  es un cantante Boliviano/Español, de madre Española y padre Boliviano, famoso por su trabajo con 
+            el grupo de folk metal Mägo de Oz, grupo español, el cual abandonó en 2011 para convertirse en vocalista y líder de la banda José Andrëa y Uróboros.
+        </p>
+            <h2>
+                <em>CARRERA</em>
+            </h2>
+            <p>
+            Nacido en La Paz, Bolivia, pero se crio en España, en el barrio de Hortaleza, considerándose madrileño de adopción. A los dos meses de edad se muda con su madre 
+            a España donde ha residido desde entonces. Comenzó tocando la batería en un grupo escolar a la edad de 14 años. Después de que el cantante del grupo se cambiara de colegio,
+            José lo sustituyó a la espera de encontrar un reemplazo. Es en ese momento que casualmente comienza a vislumbrar poco a poco la capacidad vocal que posee y comienza
+            a tomar clases de música. Tal era su talento que tanto su madre como
+            un profesor de música le insistieron en que tomara clases de canto y más adelante fuera al Real Conservatorio Superior de Música de Madrid.
+            Mientras estudiaba canto se desempeñó como cantante en varias formaciones del panorama madrileño de heavy metal, entre ellas con la banda Easy Ride
+            También formó parte de la banda de rock Grial, con quienes tuvo sus primeras experiencias semi profesionales como músico cantando en directo. Más tarde decide dejar
+            esta agrupación dada su apretada agenda por tener que terminar sus estudios, además de tocar en una orquesta que tenía fechas en directo que comenzaron a conflictuar 
+            con su banda de rock. Una vez terminados sus estudios, José decide irse a estudiar al extranjero con la intención de convertirse en contratenor para ópera, pero al no lograr 
+            destacar en este ambiente musical, decide regresar a Madrid y dedicarse a la docencia dando clases de canto y coro en el IMT.
+            También llegó a formar parte del grupo Las Ranas DF, con quienes únicamente llegó a grabar algunos demos.
+            Fue en 1994, cuando uno de los componentes de Mägo de Oz, Txus di Fellatio (batería y líder fundador del grupo), fue a la academia donde éste daba clases, buscando a un vocalista para su grupo.
+            Txus, junto a lo que ya era Mägo de Oz, 
+            habían actuado una noche antes como teloneros de los míticos Ñu y, casualmente, José los había visto. El baterista consultó a José sobre algún
+            alumno de su academia que fuese aventajado en canto y que le gustase el rock, con el fin de que asumiera el puesto de vocalista de Mägo de Oz, ante lo cual José se ofreció él mismo para el puesto.
+            En el año 1995, José ingresa como vocalista oficial de Mägo de Oz, banda que le daría fama internacional. En un principio era conocido como José “Mowglie”, pero tras el nacimiento de su hija Andrea, decide adoptar el seudónimo de José Andrëa.
+             A lo largo de su carrera con Mägo de Oz,
+            obtuvo varias nominaciones y premios a “Mejor cantante masculino”, entre ellas las del Rockferendum de Mariskal Rock donde ganó desde 2005 hasta 2008, y quedó segundo en los años 2009, 2010 y 2011.
+            El 24 de octubre de 2011, José Andrëa comunica a través de la web oficial del grupo su separación de Mägo de Oz. 
+            Esto dado inconformidades que el cantante comenzó a tener con el rumbo musical y estético de la banda. Aunque más tarde comenzaron a darse a conocer las diferencias
+            personales que comenzó a tener con Txus di Fellatio, quien solía reprocharle que no se cuidaba la voz.
+            Para inicios del 2012 se embarca en lo que sería su nueva banda: José Andrëa y Uróboros. Grupo al que invita a los exintegrantes de Mägo de Oz: Sergio Cisneros “Kiskilla” y Pedro Diaz “Peri”.
+            En este proyecto deja un poco de lado el estilo de Mägo de Oz y da un total enfoque a un Rock and roll mezclado con Blues.
+            En enero de 2023, José se reúne con sus antiguos compañeros de Mägo de Oz que ya habían dejado la banda, Frank, Carlitos y Salva, y juntos deciden comenzar giras por Latinoamérica y España tocando
+             temas de Mägo de Oz, bajo el nombre de Los Mago. Más tarde deciden cambiar el nombre de su agrupación por el de Kabrönes para evitar problemas legales con el grupo Mägo de Oz.
+            </p>
+    </section>
+</body>
+</html>

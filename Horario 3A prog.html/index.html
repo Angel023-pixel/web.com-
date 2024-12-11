@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background: linear-gradient(to right, #042828, #2d082d );
+        }
+        header{
+            margin-top: 20px;
+            margin-left: 20px;
+            align-self: center;
+            background:linear-gradient(to right, rgb(66, 88, 66), rgb(94, 65, 12));
+            height: 42px;
+        }
+        header p{
+            text-align: center;
+            font-size: 30px;
+        }
+        .libro{
+            margin-top: 6%;
+            margin-left: 70vh;
+            position:center;
+            border-radius: 10px;
+            width: 500px;
+            height: 500px;
+            background-color: rgb(116, 154, 236);
+            box-shadow: 10px 12px 10px rgb(149, 148, 146);
+            transform: preserve-3d;
+            perspective: 200px;
+            display:flex;
+            align-items: center;
+            justify-items:center;
+            color:#000;
+        }
+        .cover{
+            top:0;
+            position:absolute;
+            background-color: rgb(90, 53, 25);
+            width: 100%;
+            height: 100%;
+            border-radius:10px;
+            cursor:pointer;
+            transition: all 0.5s;
+            transform-origin: 0;
+            box-shadow:1px 1px 12px #000 ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .libro:hover .cover{
+            transition: all 1s;
+            transform: rotateY(-140deg);
+        }
+        a{
+            color:white;
+            text-decoration: none;
+        }
+        li{
+            list-style-type: lower-latin;
+            margin-left: 20px;
+
+        }
+        li:hover{
+            background:linear-gradient(to left, rgb(217, 58, 214), rgb(184, 23, 50));
+            padding: 20px;
+            transition: 3s;
+        }
+        .derechainferior{
+            float: right;
+            width: 300px;
+            height: 200px;
+            background-color: antiquewhite;
+        }
+        .derechainferior p{
+            font-size: 30px;
+            font-family:sans-serif ;
+            text-align: justify;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        footer{
+            margin-top: 20%;
+            text-align: justify;
+            background-color: peachpuff;
+        }
+        footer a{
+            color: #2d082d;
+        }
+    </style>
+    <header>
+        <p>
+            Mago de oz
+        </p>
+    </header>
+    <nav class="libro">
+        <ul id="li">
+            <li><a href="Historia.html">Historia</a></li>
+            <li><a href="Juanma.html">Vocalistas</a></li>
+            <li><a href="MejoresAlbums.html">Mejores Albumes</a></li>
+        </ul>
+        <div class="cover">
+                <img src="https://www.metal-addiction.cl/wp-content/uploads/2020/08/Mago-de-Oz-Gaia-Portada-17.jpg" >
+        </div>
+    </nav>
+<div class="derechainferior">
+ <p>
+    porfavor pasa tu raton por encima del libro de gaia 
+ </p>
+</div>
+</body>
+<footer><p>Para mas informacion has click al:</p><a href="mailto:Magode0z@gmail.com"><strong>Magode0z@gmail.com</strong></a>.  Ultima fecha de actualizacion:<actuaizacion:10/12/2024>10/12/2024</actuaizacion:10/12/2024></footer>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Andrea</title>
+</head>
+<body>
+    <style>
+        body{
+            background: linear-gradient(to right, rgb(45, 61, 45), rgb(123, 31, 31), rgb(159, 130, 130))
+        }
+        header{
+            background: linear-gradient(to left, black, pink, yellow);
+            font-size: 30px;
+            height: 40px;
+            text-align: center;
+        }
+        .menu{
+            background: linear-gradient(to left, rgb(136, 88, 136), rgb(12, 12, 91), rgb(157, 5, 30) );
+            font-size: 40px;
+            text-align: center;
+        }
+        .menu li{
+            display: inline-block;
+            margin-left: 60px;
+        }
+        .menu li a{
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+        }
+        .menu li a:hover{
+            transition: all 3s;
+            color: rgb(108, 99, 14);
+        }
+        .historia{
+            float:right;
+            background-color: lightgray;
+            height: 400px;
+            width: 400px;
+            margin-right: 5px;
+            margin-top:20px;
+            margin-bottom: 10px;
+        }
+        .historia li{
+            font-size: 20px;
+            padding: 2px;
+        }
+        .izquierda{
+            float:left;
+            background-color: lightgray;
+            height: 400px;
+            margin-top: 20px;
+            width: 1040px;
+        }
+        .izquierda p{
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        .imagen{
+            float: left;
+            width: 100px;
+            height: 300px;
+            margin-top: 2%;
+        }
+        .derecha{
+            background-color: lightgray;
+            width: 1200px;
+            height: 300px;
+            float: right;
+            margin-right: 40px;
+            margin-top: 2%;
+        }
+        p{
+            text-align: justify;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 19px;
+            font-family: sans-serif;
+        }
+        .historia{
+            float:right;
+            background-color: lightgray;
+            height: 100px;
+            width: 1200px;
+            margin-right: 40px;
+            margin-top:10px;
+            margin-bottom: 10px;
+        }
+        .historia h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 60px;
+            text-align: center;
+            }
+    </style>
+    <header>
+        Sus mejores Vocalistas 
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Juanma.html">Juanma</a></li>
+            <li><a href="Jose Andrea.html">Jose Andrea</a></li>
+            <li><a href="Zeta.html">Zeta</a></li>
+        </ul>
+    </nav>
+    <div class="imagen">
+        <img src="data:image/jpeg;base64,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" alt="">
+    </div>
+    <section class="historia">
+        <h1>
+            JUANMA
+        </h1>
+    </section>
+    <article class="derecha">
+        <p>
+        Juanma Lobón fue una parte muy importante de Mago de oz ya que el pertenecio a la primera generacion de la banda (es decir es fue uno de los creadores originales ), ademas de que el fue la primera voz de las canciones de esta banda que a diferencia de Jose Andrea y Zeta su voz era increiblemente gruesa siendo perfecta para el genero de aquel entonces
+        el cual era el blur y l rock, el fue el encargado de grabar el  primer disco de Mago de Oz el cual es "Que mas da" el cual salio en 1994, lamentablemente no fue muy conocida por su pesima distribucion, vendiendo asi solo 150 copias en todo un año, gracias a eso Juanma decidio dejar la banda ya que a pesar de que mago de oz  estaba ganando popularidad no era lo suficientemente rentable como para mantenerla y por ende tomo esa desición ya que el no queria ser el motivo por el cual la banda se estancara, aunque cabe recalcar que fue marticipe de algunas grabaciones de Jesus de chamberi (grabaciones que fueron reemplazadas por Jose Andrea).
+        Despues de su salida de la banda y de años sin saber sobre el se unio a una banda llamada AmigoZ que estaba compuesta por nada mas y nada menos que los antigus integrantres de Mago de oz(Siendo de la primera generacion), dandonos grandes canciones de Juanma y covers de la Danza del fuego y Molinos de Vientos.
+        </p>
+    </article>
+</body>
+</html>
